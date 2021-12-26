@@ -1,112 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset='UTF-8'>
+    <link rel='stylesheet' href='./style.css'>
     <title>Radical Edward :D</title>
 </head>
-<style>
-    body {
-    background-color: black;
-    color: green;
-    font-family: "Lucida Console", "Courier New", monospace;
-    }
-    a {
-        color: green;
-        cursor: default;
-    }
-    
-    a:hover {
-        color: greenyellow;
-    }
-
-    .box {
-    width: 40%;
-    margin: 0 auto;
-    background: rgba(255,255,255,0.2);
-    padding: 35px;
-    border: 2px solid #fff;
-    border-radius: 20px/50px;
-    background-clip: padding-box;
-    text-align: center;
-    }
-
-    .button {
-    font-size: 1em;
-    padding: 10px;
-    color: #fff;
-    border: 2px solid #06D85F;
-    border-radius: 20px/50px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease-out;
-    }
-    .button:hover {
-    background: #06D85F;
-    }
-
-    .overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
-    visibility: hidden;
-    opacity: 0;
-    }
-    .overlay:target {
-    visibility: visible;
-    opacity: 1;
-    }
-
-    .popup {
-    margin: 70px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    width: 30%;
-    position: relative;
-    transition: all 5s ease-in-out;
-    }
-
-    .popup h2 {
-    margin-top: 0;
-    color: #333;
-    font-family: Tahoma, Arial, sans-serif;
-    }
-    .popup .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    transition: all 200ms;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #333;
-    }
-    .popup .close:hover {
-    color: #06D85F;
-    }
-    .popup .content {
-    max-height: 30%;
-    overflow: auto;
-    }
-
-    @media screen and (max-width: 700px){
-    .box{
-        width: 70%;
-    }
-    .popup{
-        width: 70%;
-    }
-    }
-</style>
 <body>
+    <header>
+        <div class='dill'><img class="dill" src="./dill.png" alt="Dill"></div>
+        <div>  
+            <ul class="header-links">
+                <li><a href="google.com">00110001</a></li>
+                <li><a href="google.com">00110010</a></li>
+                <li><a href="google.com">00110011</a></li>
+            </ul>
+        </div> 
+    </header> 
     <main>
         <h1 id='title'>Radical Edward Fan Club</h1>
         <div id='img-div'>
-            <div id='img-caption'>Bane of the Earth ISSP/outernet</div>
+            <div id='img-caption'>Bane of the Earth ISSP/outernet/A net diver from Earth</div>
             <img id='image' src='/matrix.jpg' alt='map of earth surrounded by matrix web'>
         </div>
         <div id='tribute-info'>
@@ -132,10 +45,16 @@
                     <li>That hacker is a child. A brat that loves horrible pranks</li>
                     <li>He's an alien!</li>
                     <li>He's a seven foot ex basketball pro, hindu, guru, drag queen, alien!</li>
+                    <li>No matter who you are we love you Edward!!!</li>
                 </ul>
-            <a href='https://www.youtube.com/watch?v=5C4NUcCeWKc'>ISSP Profile on Radical Edward</a>
+            <a class='button' href='https://www.youtube.com/watch?v=5C4NUcCeWKc'>ISSP Profile on Radical Edward</a>
         </div>
     </main>
+    <footer>
+        <div>Copyright &copy The Radical Edward Fan Club 2071</div>
+        <div>Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div>Image made by <a href='https://pixabay.com/users/comfreak-51581/?tab=popular' title='Comfeak'>Comfreak</a> from <a href='https://pixabay.com/' title="pixabay">pixabay.com</a></div>
+    </footer>
 
 <div class="box">
 	<a class="button" href="#popup1">Let me Pop up</a>
