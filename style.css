@@ -17,6 +17,7 @@ header {
     list-style-type: none;
     display: flex;
     gap: 15px;
+    font-size: 12pt;
 }
 
 .dill {
