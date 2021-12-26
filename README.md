@@ -91,3 +91,22 @@ hacking satalites to draw crop circles
 8 million Woolong bounty
 
 Central Processing Unit on the D135 Artificial Satellite
+
+
+
+/* start of desktop styles */
+
+@media screen and (max-width: 991px) {
+/* start of large tablet styles */
+
+}
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+
+}
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+
+}

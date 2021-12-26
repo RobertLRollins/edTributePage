@@ -5,6 +5,18 @@ body {
     margin: 0;
 }
 
+main {
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -17,33 +29,43 @@ header {
     list-style-type: none;
     display: flex;
     gap: 15px;
-    font-size: 12pt;
 }
 
 .dill {
-    width: 90px;
+    width: 60px;
     height: auto;
+    filter: contrast(150%) brightness(75%);
 }
 
 a {
     color: green;
     cursor: default;
     text-decoration: none;
+    font-size: 18px;
 }
     
 a:hover {
     color: rgb(53, 199, 53);
 }
 
-img {
-    max-width: 45%;
+#img-div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#image {
+    width: 45%;
     height: auto;
+}
+
+#tribute-link {
+    margin: 15px;
 }
 
 .box {
     width: 40%;
     margin: 0 auto;
-    background: rgba(255,255,255,0.2);
+    background: #202020;
     padding: 35px;
     border: 2px solid #fff;
     border-radius: 20px/50px;
@@ -58,7 +80,7 @@ img {
     color: green;
     padding: 5px 15px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 18px;
     transition-duration: 0.4s;
   }
 .button:hover {
@@ -71,7 +93,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px; 
+    padding: 15px; 
+    background-color: #202020;
 }
 
 .overlay {
