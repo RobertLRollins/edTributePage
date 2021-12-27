@@ -107,6 +107,7 @@ footer {
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
+
 }
 
 .overlay:target {
@@ -121,6 +122,7 @@ footer {
     border-radius: 5px;
     width: 30%;
     position: relative;
+    top: 30%;
     transition: all 5s ease-in-out;
 }
 
@@ -150,11 +152,78 @@ footer {
     overflow: auto;
 }
 
-@media screen and (max-width: 700px){
+.emoji1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation-name: spin;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.emoji2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.emoji3 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.emoji4 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+/* start of desktop styles */
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    
+}
+    
+@media screen and (max-width: 767px) {
     .box{
-        width: 70%;
+            width: 70%;
     }
+
     .popup{
+            width: 70%;
+    }
+
+    #image {
+        width: 70%;
+       
+    }
+
+    ul {
         width: 70%;
     }
+
+    footer {
+        flex-direction: column;
+    }
+
+    
+}
+    
+    @media screen and (max-width: 479px) {
+    
+    ul {
+        width: 90%;
+    }
+    
 }
