@@ -125,3 +125,30 @@ Central Processing Unit on the D135 Artificial Satellite
         transform:rotate(360deg);
     }
 }
+
+       <div id='tribute-info'>
+            <h2>What we know about Edward</h2>
+            <h3>Known Aliases</h3>
+                <ul>
+                    <li>Radical Edward</li>
+                    <li>Edward Wong Hau Pepelu Tivruski IV</li>
+                    <li>Edward Wang Hwe Pepel Cybulski 4th</li>
+                    <li>Ed</li>
+                </ul>
+            <h3>Exploits</h3>
+                <ul>
+                    <li>Bounties as high as 8 million Woolong have been placed on their head</li>
+                    <li>Taking control of crafts including police cruisers much to their dismay</li>
+                    <li>Taking control of the News 75 broadcast</li>
+                    <li>Hacking the Central Processing Unit on the D135 Artificial Satellite and making it draw all over the earth</li>
+                </ul>
+            <h3>Descriptions of Edward</h3>
+                <ul>
+                    <li>He's a huge guy, 2 meters tall. Supposedly, he used to be a basketball player</li>
+                    <li>She's a very beautiful yet whimsical hacker</li>
+                    <li>That hacker is a child. A brat that loves horrible pranks</li>
+                    <li>He's an alien!</li>
+                    <li>He's a seven foot ex basketball pro, hindu, guru, drag queen, alien!</li>
+                    <li>No matter who you are we love you Edward!!!</li>
+                </ul>
+        </div>
