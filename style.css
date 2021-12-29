@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: green;
     font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 100%;
     margin: 0;
 }
 
@@ -11,6 +12,7 @@ header {
     justify-content: space-between;
     padding: 15px;
     background-color: #202020;
+    font-size: 1.5em;
 }
 
 .logo {
@@ -47,9 +49,17 @@ main {
     text-align: center;
 }
 
+h1 {
+    font-size: 3.5em;
+}
+
 #img-div {
     margin: 0 auto;
     text-align: center;
+}
+
+#img-caption {
+    font-size: 2.5em;
 }
 
 #image {
@@ -91,9 +101,9 @@ main {
     border: 6px solid yellow;
     border-radius: 50%;
     color: yellow;
-    padding: 5px 15px;
+    padding: 10px 15px;
     display: inline-block;
-    font-size: 27px;
+    font-size: 1.7em;
     transition-duration: 0.4s;
 }
 
@@ -101,22 +111,26 @@ main {
     background-color: yellow; 
     color: red; 
     border: 6px solid yellow;
+    box-shadow: none;
+    transform: scale(1.5);
 }
 
 .button {
     background-color: #202020;
-    border: 2px solid green;
+    border: 5px solid green;
     border-radius: 20px/50px;
     color: green;
     padding: 5px 15px;
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.2em;
+    font-weight: bolder;
     transition-duration: 0.4s;
   }
 .button:hover {
-    background-color: green; 
+    background-color: rgb(53, 199, 53); 
     color: black; 
-    border: 2px solid green;
+    border: 5px solid green;
+    box-shadow: 5px 10px 18px rgb(53, 199, 53);
 }
 
 footer {
@@ -127,18 +141,30 @@ footer {
     background-color: #202020;
 }
 
+footer a {
+    color: rgb(53, 199, 53);
+}
+
+footer a:hover {
+    color: green;
+}
+
 .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
+    /*transition: opacity 500ms;*/
     visibility: hidden;
     opacity: 0;
-
 }
+
+.overlay :nth-child(5) { order: 3; }
 
 .overlay:target {
     visibility: visible;
@@ -152,8 +178,6 @@ footer {
     border-radius: 5px;
     width: 30%;
     position: relative;
-    top: 35%;
-    transition: all 5s ease-in-out;
 }
 
 .popup h2 {
@@ -166,11 +190,10 @@ footer {
     position: absolute;
     top: 20px;
     right: 30px;
-    transition: all 200ms;
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bold;
     text-decoration: none;
-    color: #333;
+    color: black;
 }
 
 .popup .close:hover {
@@ -212,6 +235,7 @@ footer {
 
 .emoji1 {
     position: fixed;
+    top: 10px;
     animation-name: spinRight;
     animation-duration: 3000ms;
     animation-iteration-count: infinite;
@@ -268,10 +292,6 @@ footer {
        
     }
 
-    ul {
-        width: 70%;
-    }
-
     footer {
         flex-direction: column;
     }
@@ -280,9 +300,9 @@ footer {
 }
     
 @media screen and (max-width: 479px) {
-    
-    ul {
-        width: 90%;
+
+    footer {
+        font-size: .75em;
     }
     
 }
