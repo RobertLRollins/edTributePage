@@ -18,7 +18,8 @@ header {
     padding: 10px 30px;
     background-color: #202020;
     font-size: 1.5em;
-    box-shadow: 5px 10px 30px rgb(53, 199, 53);
+    border-bottom: 5px solid rgb(53, 199, 53);
+    box-shadow: rgba(53, 199, 53, 0.4) 0px 5px, rgba(53, 199, 53, 0.3) 0px 10px, rgba(53, 199, 53, 0.2) 0px 15px, rgba(53, 199, 53, 0.1) 0px 20px, rgba(53, 199, 53, 0.05) 0px 25px;
 }
 .logo {
     width: 60px;
@@ -32,16 +33,19 @@ header {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 a {
     color: green;
-    cursor: default;
     text-decoration: none;
     transition-duration: 0.4s;
+    border-bottom: 2px solid green;
 }   
 a:hover {
     color: rgb(53, 199, 53);
+    border-bottom: 3px solid rgb(53, 199, 53);
+    box-shadow: 5px 10px 18px rgb(53, 199, 53);
+    box-shadow: rgba(53, 199, 53, 0.4) 0px 3px, rgba(53, 199, 53, 0.3) 0px 6px, rgba(53, 199, 53, 0.2) 0px 9px, rgba(53, 199, 53, 0.1) 0px 12px, rgba(53, 199, 53, 0.05) 0px 15px;
 }
 main {
     padding: 15px;
@@ -50,7 +54,6 @@ main {
 }
 h1 {
     font-size: 3.5em;
-    margin-bottom: 1em;
     text-transform: uppercase;
 }
 .img-div {
@@ -62,7 +65,7 @@ h1 {
     text-transform: uppercase;
 }
 .image {
-    width: 45%;
+    width: 35%;
     height: auto;
     margin: 15px;
 }
@@ -86,8 +89,8 @@ h1 {
 .button:hover {
     background-color: rgb(53, 199, 53); 
     color: black; 
-    border: 5px solid green;
-    box-shadow: 5px 10px 18px rgb(53, 199, 53);
+    border: 5px solid rgb(53, 199, 53);
+    box-shadow: rgba(53, 199, 53, 0.4) 0px 5px, rgba(53, 199, 53, 0.3) 0px 10px, rgba(53, 199, 53, 0.2) 0px 15px, rgba(53, 199, 53, 0.1) 0px 20px, rgba(53, 199, 53, 0.05) 0px 25px;
 }
 footer {
     display: flex;
@@ -97,10 +100,10 @@ footer {
     background-color: #202020;
 }
 footer a {
-    color: rgb(53, 199, 53);
+
 }
 footer a:hover {
-    color: green;
+   
 }
 
 /*popup*/
@@ -171,9 +174,11 @@ p {
     text-decoration: none;
     color: #5a5a5a;
     pointer-events: initial;
+    border: none;
 }
 .screen .close:hover {
     color: #14fdce;
+    box-shadow: none;
 }
 @keyframes squish {
     0% {
