@@ -152,3 +152,13 @@ Central Processing Unit on the D135 Artificial Satellite
                     <li>No matter who you are we love you Edward!!!</li>
                 </ul>
         </div>
+
+        Photo by <a href="https://unsplash.com/@usukbayer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Usukhbayar Gankhuyag</a> on <a href="https://unsplash.com/s/photos/meteor-shower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+        Photo by <a href="https://unsplash.com/@fw_rodrigues?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fernando Rodrigues</a> on <a href="https://unsplash.com/s/photos/meteor-shower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+        <div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+        <img class='logo logoTitle' src='./bars.png' alt='Menu'>
+  
+  

@@ -52,6 +52,46 @@ header {
 .logoTitle:hover .title {
     box-shadow: rgba(53, 199, 53, 0.4) 0px 3px, rgba(53, 199, 53, 0.3) 0px 6px, rgba(53, 199, 53, 0.2) 0px 9px, rgba(53, 199, 53, 0.1) 0px 12px, rgba(53, 199, 53, 0.05) 0px 15px;
 }
+.dropbtn {
+    background-color: #202020;
+    color: white;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #202020;
+    min-width: 160px;
+    border: 5px solid rgb(53, 199, 53);
+    border-radius: 11%;
+    z-index: 1;
+    right: 0;
+}
+.dropdown-content a {
+    color: rgb(53, 199, 53);
+    padding: 12px;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .logo {
+    filter: none;
+}
+.dropdown-content a {
+    border: none;
+    border-radius: 9%;
+}
+.dropdown-content a:hover {
+    background-color: rgb(53, 199, 53); 
+    color: #202020;
+    box-shadow: none;
+    border: none;
+}
 a {
     color: green;
     text-decoration: none;
