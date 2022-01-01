@@ -159,6 +159,8 @@ Central Processing Unit on the D135 Artificial Satellite
 
         <div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
-        <img class='logo logoTitle' src='./bars.png' alt='Menu'>
+
+Edward Wong Hau Pepelu Tivruski IV aka "Radical Edward" aka "Ed" is known for having bounties as high as 8 million Woolong placed on their head, taking control of crafts including police cruisers much to their dismay, hijacking the News 75 broadcast, and most recently hacking the CPU of the D135 Artificial Satellite and making it draw all over the earth!<br>
+Ed has been discribed many diferent ways. "He's a huge guy, 2 meters tall. Supposedly, he used to be a basketball player". "She's a very beautiful yet whimsical hacker". "That hacker is a child. A brat that loves horrible pranks". "He's an alien!". We can't know for sure who or what Ed is, but whoever they are we are their biggest fans!
   
   

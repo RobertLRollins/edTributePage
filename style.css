@@ -60,6 +60,7 @@ header {
 .dropdown {
     position: relative;
     display: inline-block;
+    transition-duration: 0.4s;
 }
 .dropdown-content {
     display: none;
@@ -112,22 +113,34 @@ main {
     background-attachment: fixed;
     background-size: cover;
 }
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%
+}
 .tribute {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    width: 90%;
+    margin: 90px 0;
+}
+.tributeTitle {
+    font-size: 2em;
 }
 .button {
-    background-color: #202020;
+    background-color: rgba(32, 32, 32,0.75);
     border: 5px solid green;
     border-radius: 50px;
     color: green;
     padding: 10px 15px;
     display: inline-block;
     font-size: 2em;
-    font-weight: bolder;
     transition-duration: 0.4s;
+
 }
 .button:hover {
     background-color: rgb(53, 199, 53); 
@@ -135,14 +148,25 @@ main {
     border: 5px solid #202020;
     box-shadow: rgba(53, 199, 53, 0.9) 0px 5px, rgba(53, 199, 53, 0.4) 0px 10px, rgba(53, 199, 53, 0.3) 0px 15px, rgba(53, 199, 53, 0.2) 0px 20px, rgba(53, 199, 53, 0.1) 0px 25px, rgba(53, 199, 53, 0.05) 0px 30px;
 }
-.form {
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
     margin: auto 0;
+    padding: 30px;
     width: 25%;
     height: 70%;
-    background-color: #202020;
+    font-size: 1.2em;
+    background-color: rgba(32, 32, 32,0.75);
     border: 5px solid green;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.avatar {
+    width: 200px;
+    height: auto;
+    filter: contrast(150%) brightness(60%);
 }
 footer {
     flex-shrink: 0;
