@@ -124,12 +124,17 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: 90px 0;
+    align-items: flex-start;
+    width: 100%;
+    margin: 65px 0;
 }
 .tributeTitle {
-    font-size: 2em;
+    font-size: 2.2em;
+}
+.tributeInfo {
+    margin-top: -10px;
+    font-size: 1.5em;
+    color: black;
 }
 .button {
     background-color: rgba(32, 32, 32,0.75);
@@ -228,9 +233,6 @@ footer a:hover {
     font-size: 3.5em;
     text-transform: uppercase;
 }
-.output p {
-    margin-bottom: 2em;
-}
 .output {
     box-sizing: border-box;
     height: 100%;
@@ -244,6 +246,9 @@ footer a:hover {
     pointer-events: auto;
     text-shadow: 0em 0.2em 1em #0c7b46;
     z-index: -1;
+}
+.popupTitle {
+    display: flex;
 }
 .screen {
     color: #14fdce;
@@ -284,24 +289,63 @@ footer a:hover {
 }
 @keyframes squish {
     0% {
-        transform: scaleY(1.2) rotate(-10deg)
+        transform: scaleY(1.2) rotate(-10deg);
+        filter: hue-rotate(0deg)
     }
     25% {
-        transform: scaleY(.5) rotate(0)
+        transform: scaleY(.5) rotate(0);
+        filter: hue-rotate(90deg)
     }
     50% {
-        transform: scaleY(1.2) rotate(10deg)
+        transform: scaleY(1.2) rotate(10deg);
+        filter: hue-rotate(180deg)
     }
     75% {
-        transform: scaleY(.5) rotate(0deg)
+        transform: scaleY(.5) rotate(0deg);
+        filter: hue-rotate(270deg)
     }
     100% {
-        transform: scaleY(1.2) rotate(-10deg)
+        transform: scaleY(1.2) rotate(-10deg);
+        filter: hue-rotate(360deg)
     }
 }
 .squish {
+    width: 10%;
+    height: auto;
     transform-origin: center bottom;
 	animation: squish 1.6s linear infinite;
+}
+.squishSmall {
+    width: 5%;
+    height: auto;
+    transform-origin: center bottom;
+	animation: squish 1.6s linear infinite;
+}
+
+/*503*/
+.mntLogo {
+    width: 300px;
+    height: auto;
+    margin-right: 40px;
+    filter: contrast(150%) brightness(60%);
+}
+.mntMain {
+    justify-content: center;
+    align-items: center;
+}
+.mntText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.mnt {
+    font-size: 8em;
+    margin-top: -40px;
+}
+.mntSub {
+    margin-top: -120px;
+    font-size: 3em;
 }
 
 /* start of desktop styles */
