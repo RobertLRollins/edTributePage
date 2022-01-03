@@ -117,10 +117,11 @@ main {
 .about {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 55%;
     height: 70%;
+    margin-bottom: 1em;
 }
 .tribute {
     display: flex;
@@ -132,6 +133,7 @@ main {
     border: 5px solid green;
     border-radius: 20px;
     padding: 0 30px;
+    margin-bottom: 5em;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .tributeTitle {
@@ -359,12 +361,28 @@ footer a:hover {
 }
 
 /* start of desktop styles */
-@media screen and (max-width: 991px) {
-   
+@media screen and (min-width: 1920px) {
+   body {
+       font-size: 100%;
+   }
 }
-@media screen and (max-width: 767px) {
-  
+@media screen and (max-width: 1680px) {
+    body {
+        font-size: 90%;
+    }
 } 
-@media screen and (max-width: 479px) {
-
+@media screen and (max-width: 1536px) {
+    body {
+        font-size: 75%;
+    }
+}
+@media screen and (max-width: 1366px) {
+    body {
+        font-size: 65%;
+    }
+}
+@media screen and (max-width: 1280px) {
+    body {
+        font-size: 60%;
+    }
 }
