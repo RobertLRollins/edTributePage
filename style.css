@@ -342,6 +342,7 @@ footer a:hover {
 }
 .tributeTitle.newsTitle{
     font-size: 6em;
+    margin: 3vw;
 }
 .news .about {
     display: flex;
@@ -350,7 +351,7 @@ footer a:hover {
     align-items: center;
     width: 55%;
     height: 70%;
-    margin: 5em 0;
+    margin: 3vw;
 }
 .newsPic {
     width: 50%;
@@ -358,24 +359,31 @@ footer a:hover {
     margin: 3vw;
 }
 .pageSelect {
-    border: 0.3vw solid green;
-    padding: .15vw 0;
-    font-size: 3em;
-    border-radius: 15px;
-    margin-bottom: 1.5vw;
+    display: flex;
     background-color: rgba(32, 32, 32,0.75);
+    border: 0.3vw solid green;
+    border-radius: 15px;
+    margin: 3vw;
 }
-.one {
-    color: black;
-    background-color: green;
-    padding: .15vw 1vw;
+.pageSelect a {
+    color: green;
+    padding: 12px;
+    font-size: 1.5em;
+    display: block;
 }
 .pageSelect a {
     border: none;
+    border-radius: 0px;
 }
 .pageSelect a:hover {
-    border: none;
+    background-color: rgba(0, 128, 0, 0.75); 
+    color: #202020;
     box-shadow: none;
+    border: none;
+}
+a.one {
+    color: #202020;
+    background-color: green;
 }
 
 /*503*/
