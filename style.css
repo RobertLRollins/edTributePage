@@ -121,7 +121,7 @@ main {
     align-items: center;
     width: 55%;
     height: 70%;
-    margin: 5em 0;
+    margin: 5em;
 }
 .tribute {
     display: flex;
@@ -339,10 +339,6 @@ footer a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.tributeTitle.newsTitle{
-    font-size: 6em;
-    margin: 3vw;
 }
 .news .about {
     display: flex;
