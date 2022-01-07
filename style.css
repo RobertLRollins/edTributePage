@@ -114,7 +114,7 @@ main {
     background-attachment: fixed;
     background-size: cover;
 }
-.about {
+.outer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -123,7 +123,7 @@ main {
     height: 70%;
     margin: 5em;
 }
-.tribute {
+.inner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,6 +216,107 @@ footer {
 footer a:hover {
    box-shadow: none;
 }
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first .outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 70%;
+    margin: 3vw;
+}
+.newsPic {
+    width: 50%;
+    height: auto;
+    margin: 3vw;
+}
+.pageSelect {
+    display: flex;
+    background-color: rgba(32, 32, 32,0.75);
+    border: 0.3vw solid green;
+    border-radius: 15px;
+    margin: 3vw;
+}
+.pageSelect a {
+    color: green;
+    padding: 12px;
+    font-size: 1.5em;
+    display: block;
+}
+.pageSelect a {
+    border: none;
+    border-radius: 0px;
+}
+.pageSelect a:hover {
+    background-color: rgba(0, 128, 0, 0.75); 
+    color: #202020;
+    box-shadow: none;
+    border: none;
+}
+a.one {
+    color: #202020;
+    background-color: green;
+}
+.hrHeavy {
+    width:100%;
+    border: 0.15vw solid green;
+}
+.hrLight {
+    width:100%;
+    border: 0.1vw solid green;
+}
+.groupTitle {
+    font-size: 1.2em;
+    margin-top: 2vw;
+}
+.topic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.topicMain{
+    display: flex;
+    align-items: center;
+}
+.latest {
+    justify-self: flex-end;
+}
+.chatBubble {
+    width: 3vw;
+    margin-right: 1vw;
+}
+.mntLogo {
+    width: 300px;
+    height: auto;
+    margin-right: 40px;
+    filter: contrast(150%) brightness(50%);
+}
+.mntMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mntText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.mnt {
+    font-size: 6em;
+    margin: 0;
+}
+.mntSub {
+    font-size: 3em;
+    margin: 0;
+}
 
 /*popup*/
 .overlay {
@@ -298,6 +399,18 @@ footer a:hover {
     color: #14fdce;
     box-shadow: none;
 }
+.squish {
+    width: 10%;
+    height: auto;
+    transform-origin: center bottom;
+	animation: squish 1.6s linear infinite;
+}
+.squishSmall {
+    width: 5%;
+    height: auto;
+    transform-origin: center bottom;
+	animation: squish 1.6s linear infinite;
+}
 @keyframes squish {
     0% {
         transform: scaleY(1.2) rotate(-10deg);
@@ -319,104 +432,6 @@ footer a:hover {
         transform: scaleY(1.2) rotate(-10deg);
         filter: hue-rotate(360deg)
     }
-}
-.squish {
-    width: 10%;
-    height: auto;
-    transform-origin: center bottom;
-	animation: squish 1.6s linear infinite;
-}
-.squishSmall {
-    width: 5%;
-    height: auto;
-    transform-origin: center bottom;
-	animation: squish 1.6s linear infinite;
-}
-
-/*News*/
-.news {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.news .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 55%;
-    height: 70%;
-    margin: 3vw;
-}
-.newsPic {
-    width: 50%;
-    height: auto;
-    margin: 3vw;
-}
-.pageSelect {
-    display: flex;
-    background-color: rgba(32, 32, 32,0.75);
-    border: 0.3vw solid green;
-    border-radius: 15px;
-    margin: 3vw;
-}
-.pageSelect a {
-    color: green;
-    padding: 12px;
-    font-size: 1.5em;
-    display: block;
-}
-.pageSelect a {
-    border: none;
-    border-radius: 0px;
-}
-.pageSelect a:hover {
-    background-color: rgba(0, 128, 0, 0.75); 
-    color: #202020;
-    box-shadow: none;
-    border: none;
-}
-a.one {
-    color: #202020;
-    background-color: green;
-}
-
-/*Forums*/
-.hrHeavy {
-    width:100%;
-    border: 0.15vw solid green;
-}
-.hrLight {
-    width:100%;
-    border: 0.1vw solid green;
-}
-
-/*503*/
-.mntLogo {
-    width: 300px;
-    height: auto;
-    margin-right: 40px;
-    filter: contrast(150%) brightness(50%);
-}
-.mntMain {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.mntText {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-.mnt {
-    font-size: 6em;
-    margin: 0;
-}
-.mntSub {
-    font-size: 3em;
-    margin: 0;
 }
 
 /* start of desktop styles */
