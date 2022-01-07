@@ -382,6 +382,16 @@ a.one {
     background-color: green;
 }
 
+/*Forums*/
+.hrHeavy {
+    width:100%;
+    border: 0.15vw solid green;
+}
+.hrLight {
+    width:100%;
+    border: 0.1vw solid green;
+}
+
 /*503*/
 .mntLogo {
     width: 300px;
