@@ -121,7 +121,12 @@ main {
     align-items: center;
     width: 55%;
     height: 70%;
-    margin: 5em;
+}
+.outer.home {
+    margin-top: 4vw;
+}
+.first.home {
+    padding-top: 4vw;
 }
 .inner {
     display: flex;
@@ -133,7 +138,7 @@ main {
     border: 0.3vw solid green;
     border-radius: 20px;
     padding: 0 30px;
-    margin-bottom: 5em;
+    margin-bottom: 1vw;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .tributeTitle {
@@ -142,6 +147,12 @@ main {
 }
 .tributeInfo {
     font-size: 1.5em;
+}
+.pageTitle {
+   font-size: 3em;
+}
+.titleBox {
+    height: 90%;
 }
 .button {
     background-color: rgba(32, 32, 32,0.75);
@@ -165,7 +176,7 @@ form {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    margin: 4em 0;
+    margin: 4vw 0;
     padding: 30px;
     width: 20%;
     height: 70%;
@@ -219,7 +230,6 @@ footer a:hover {
 .first {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .first .outer {
@@ -229,7 +239,7 @@ footer a:hover {
     align-items: center;
     width: 55%;
     height: 70%;
-    margin: 3vw;
+    margin: 0 0 4vw;
 }
 .newsPic {
     width: 50%;
@@ -241,7 +251,7 @@ footer a:hover {
     background-color: rgba(32, 32, 32,0.75);
     border: 0.3vw solid green;
     border-radius: 15px;
-    margin: 3vw;
+    margin: 1vw;
 }
 .pageSelect a {
     color: green;
@@ -251,7 +261,7 @@ footer a:hover {
 }
 .pageSelect a {
     border: none;
-    border-radius: 0px;
+    border-radius: 0;
 }
 .pageSelect a:hover {
     background-color: rgba(0, 128, 0, 0.75); 
